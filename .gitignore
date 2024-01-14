@@ -1,0 +1,9 @@
+.vscode
+.pyd
+.pyc
+.exp
+.so
+.lib
+.obj
+ABC_to_iReal/build/
+ABC_to_iReal/__pycache__/
