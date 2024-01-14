@@ -6,7 +6,8 @@ Created on Fri Jan 12 15:08:40 2024
 """
 
 #Automatically compiles all cython files that I try to import
-import pyximport; pyximport.install() 
+
+#import pyximport; pyximport.install(reload_support=True) 
 
 from ABC_to_iReal.ABCTune import ABCTune
 

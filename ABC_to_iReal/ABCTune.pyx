@@ -2,12 +2,13 @@ import pyrealpro
 from pyrealpro import Measure, TimeSignature
 from pyRealParser import Tune
 import re
-
+#from libcpp cimport bool
 cdef class ABCTune:
     cdef str abc
     cdef object sections
     
     def __cinit__(self,file=None,fileDir=None,str text=None):
+        #print("ABCTune Loaded")
         inputs=[file,fileDir,text]
         assert len(set(inputs))==2 #Assert that exactly one of file, fileDir, or text is defined
         
@@ -35,14 +36,14 @@ cdef class ABCTune:
             
     def __str__(self):
         return self.abc
-    def getChords(self):
+    cpdef str getChords(self):
         chord= re.compile('\"[A-Za-z1-9#]{1,}\"')
-        #cdef str measures, out
-        #cdef bool inQuote,inCurly
+        cdef str measures, out
+        
         measures="\n".join(self.sections["notes"])
         out=""
-        inQuote=False
-        inCurly=False
+        cdef bint inCurly=False
+        
         for char in measures:
             if char in ":|{}[]\n! ":
                 out+=char
