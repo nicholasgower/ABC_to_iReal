@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pyrealpro",
+    name="ABC_to_iReal",
     version="0.0.1",
     author="Nicholas Gower",
     author_email="nicholasgower01@gmail.com",
