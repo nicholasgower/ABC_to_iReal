@@ -5,7 +5,7 @@
     "distutils": {
         "name": "ABC_to_iReal",
         "sources": [
-            "ABC_to_iReal.pyx"
+            "src\\ABC_to_iReal.pyx"
         ]
     },
     "module_name": "ABC_to_iReal"
@@ -1461,7 +1461,7 @@ static const char *__pyx_filename;
 /* #### Code section: filename_table ### */
 
 static const char *__pyx_f[] = {
-  "ABC_to_iReal.pyx",
+  "src\\\\ABC_to_iReal.pyx",
   "<stringsource>",
 };
 /* #### Code section: utility_code_proto_before_types ### */
@@ -2374,11 +2374,11 @@ static const char __pyx_k_reduce_cython[] = "__reduce_cython__";
 static const char __pyx_k_AssertionError[] = "AssertionError";
 static const char __pyx_k_setstate_cython[] = "__setstate_cython__";
 static const char __pyx_k_ABCTune_to_iReal[] = "ABCTune.to_iReal";
-static const char __pyx_k_ABC_to_iReal_pyx[] = "ABC_to_iReal.pyx";
 static const char __pyx_k_getChordMeasures[] = "getChordMeasures";
 static const char __pyx_k_ABCTune_getChords[] = "ABCTune.getChords";
 static const char __pyx_k_asyncio_coroutines[] = "asyncio.coroutines";
 static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";
+static const char __pyx_k_src_ABC_to_iReal_pyx[] = "src\\ABC_to_iReal.pyx";
 static const char __pyx_k_ABCTune___reduce_cython[] = "ABCTune.__reduce_cython__";
 static const char __pyx_k_ABCTune_getChordMeasures[] = "ABCTune.getChordMeasures";
 static const char __pyx_k_ABCTune___setstate_cython[] = "ABCTune.__setstate_cython__";
@@ -2430,7 +2430,6 @@ typedef struct {
   PyObject *__pyx_n_s_ABCTune_getChords;
   PyObject *__pyx_n_s_ABCTune_to_iReal;
   PyObject *__pyx_n_s_ABC_to_iReal;
-  PyObject *__pyx_kp_s_ABC_to_iReal_pyx;
   PyObject *__pyx_kp_s_A_Za_z1_9_1;
   PyObject *__pyx_n_s_AssertionError;
   PyObject *__pyx_n_s_C;
@@ -2516,6 +2515,7 @@ typedef struct {
   PyObject *__pyx_n_s_setstate_cython;
   PyObject *__pyx_n_s_spec;
   PyObject *__pyx_n_s_split;
+  PyObject *__pyx_kp_s_src_ABC_to_iReal_pyx;
   PyObject *__pyx_kp_s_stringsource;
   PyObject *__pyx_n_s_style;
   PyObject *__pyx_n_s_test;
@@ -2590,7 +2590,6 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_ABCTune_getChords);
   Py_CLEAR(clear_module_state->__pyx_n_s_ABCTune_to_iReal);
   Py_CLEAR(clear_module_state->__pyx_n_s_ABC_to_iReal);
-  Py_CLEAR(clear_module_state->__pyx_kp_s_ABC_to_iReal_pyx);
   Py_CLEAR(clear_module_state->__pyx_kp_s_A_Za_z1_9_1);
   Py_CLEAR(clear_module_state->__pyx_n_s_AssertionError);
   Py_CLEAR(clear_module_state->__pyx_n_s_C);
@@ -2676,6 +2675,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_setstate_cython);
   Py_CLEAR(clear_module_state->__pyx_n_s_spec);
   Py_CLEAR(clear_module_state->__pyx_n_s_split);
+  Py_CLEAR(clear_module_state->__pyx_kp_s_src_ABC_to_iReal_pyx);
   Py_CLEAR(clear_module_state->__pyx_kp_s_stringsource);
   Py_CLEAR(clear_module_state->__pyx_n_s_style);
   Py_CLEAR(clear_module_state->__pyx_n_s_test);
@@ -2728,7 +2728,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_ABCTune_getChords);
   Py_VISIT(traverse_module_state->__pyx_n_s_ABCTune_to_iReal);
   Py_VISIT(traverse_module_state->__pyx_n_s_ABC_to_iReal);
-  Py_VISIT(traverse_module_state->__pyx_kp_s_ABC_to_iReal_pyx);
   Py_VISIT(traverse_module_state->__pyx_kp_s_A_Za_z1_9_1);
   Py_VISIT(traverse_module_state->__pyx_n_s_AssertionError);
   Py_VISIT(traverse_module_state->__pyx_n_s_C);
@@ -2814,6 +2813,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_setstate_cython);
   Py_VISIT(traverse_module_state->__pyx_n_s_spec);
   Py_VISIT(traverse_module_state->__pyx_n_s_split);
+  Py_VISIT(traverse_module_state->__pyx_kp_s_src_ABC_to_iReal_pyx);
   Py_VISIT(traverse_module_state->__pyx_kp_s_stringsource);
   Py_VISIT(traverse_module_state->__pyx_n_s_style);
   Py_VISIT(traverse_module_state->__pyx_n_s_test);
@@ -2876,7 +2876,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_ABCTune_getChords __pyx_mstate_global->__pyx_n_s_ABCTune_getChords
 #define __pyx_n_s_ABCTune_to_iReal __pyx_mstate_global->__pyx_n_s_ABCTune_to_iReal
 #define __pyx_n_s_ABC_to_iReal __pyx_mstate_global->__pyx_n_s_ABC_to_iReal
-#define __pyx_kp_s_ABC_to_iReal_pyx __pyx_mstate_global->__pyx_kp_s_ABC_to_iReal_pyx
 #define __pyx_kp_s_A_Za_z1_9_1 __pyx_mstate_global->__pyx_kp_s_A_Za_z1_9_1
 #define __pyx_n_s_AssertionError __pyx_mstate_global->__pyx_n_s_AssertionError
 #define __pyx_n_s_C __pyx_mstate_global->__pyx_n_s_C
@@ -2962,6 +2961,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_setstate_cython __pyx_mstate_global->__pyx_n_s_setstate_cython
 #define __pyx_n_s_spec __pyx_mstate_global->__pyx_n_s_spec
 #define __pyx_n_s_split __pyx_mstate_global->__pyx_n_s_split
+#define __pyx_kp_s_src_ABC_to_iReal_pyx __pyx_mstate_global->__pyx_kp_s_src_ABC_to_iReal_pyx
 #define __pyx_kp_s_stringsource __pyx_mstate_global->__pyx_kp_s_stringsource
 #define __pyx_n_s_style __pyx_mstate_global->__pyx_n_s_style
 #define __pyx_n_s_test __pyx_mstate_global->__pyx_n_s_test
@@ -5208,7 +5208,6 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_ABCTune_getChords, __pyx_k_ABCTune_getChords, sizeof(__pyx_k_ABCTune_getChords), 0, 0, 1, 1},
     {&__pyx_n_s_ABCTune_to_iReal, __pyx_k_ABCTune_to_iReal, sizeof(__pyx_k_ABCTune_to_iReal), 0, 0, 1, 1},
     {&__pyx_n_s_ABC_to_iReal, __pyx_k_ABC_to_iReal, sizeof(__pyx_k_ABC_to_iReal), 0, 0, 1, 1},
-    {&__pyx_kp_s_ABC_to_iReal_pyx, __pyx_k_ABC_to_iReal_pyx, sizeof(__pyx_k_ABC_to_iReal_pyx), 0, 0, 1, 0},
     {&__pyx_kp_s_A_Za_z1_9_1, __pyx_k_A_Za_z1_9_1, sizeof(__pyx_k_A_Za_z1_9_1), 0, 0, 1, 0},
     {&__pyx_n_s_AssertionError, __pyx_k_AssertionError, sizeof(__pyx_k_AssertionError), 0, 0, 1, 1},
     {&__pyx_n_s_C, __pyx_k_C, sizeof(__pyx_k_C), 0, 0, 1, 1},
@@ -5294,6 +5293,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_setstate_cython, __pyx_k_setstate_cython, sizeof(__pyx_k_setstate_cython), 0, 0, 1, 1},
     {&__pyx_n_s_spec, __pyx_k_spec, sizeof(__pyx_k_spec), 0, 0, 1, 1},
     {&__pyx_n_s_split, __pyx_k_split, sizeof(__pyx_k_split), 0, 0, 1, 1},
+    {&__pyx_kp_s_src_ABC_to_iReal_pyx, __pyx_k_src_ABC_to_iReal_pyx, sizeof(__pyx_k_src_ABC_to_iReal_pyx), 0, 0, 1, 0},
     {&__pyx_kp_s_stringsource, __pyx_k_stringsource, sizeof(__pyx_k_stringsource), 0, 0, 1, 0},
     {&__pyx_n_s_style, __pyx_k_style, sizeof(__pyx_k_style), 0, 0, 1, 1},
     {&__pyx_n_s_test, __pyx_k_test, sizeof(__pyx_k_test), 0, 0, 1, 1},
@@ -5366,7 +5366,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__17 = PyTuple_Pack(7, __pyx_n_s_self, __pyx_n_s_chord, __pyx_n_s_measures, __pyx_n_s_out, __pyx_n_s_inQuote, __pyx_n_s_inCurly, __pyx_n_s_char); if (unlikely(!__pyx_tuple__17)) __PYX_ERR(0, 38, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__17);
   __Pyx_GIVEREF(__pyx_tuple__17);
-  __pyx_codeobj__18 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__17, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_ABC_to_iReal_pyx, __pyx_n_s_getChords, 38, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__18)) __PYX_ERR(0, 38, __pyx_L1_error)
+  __pyx_codeobj__18 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 7, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__17, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_ABC_to_iReal_pyx, __pyx_n_s_getChords, 38, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__18)) __PYX_ERR(0, 38, __pyx_L1_error)
 
   /* "ABC_to_iReal.pyx":63
  *                 out+=char
@@ -5378,7 +5378,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__19 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_measures); if (unlikely(!__pyx_tuple__19)) __PYX_ERR(0, 63, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__19);
   __Pyx_GIVEREF(__pyx_tuple__19);
-  __pyx_codeobj__20 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__19, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_ABC_to_iReal_pyx, __pyx_n_s_getChordMeasures, 63, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__20)) __PYX_ERR(0, 63, __pyx_L1_error)
+  __pyx_codeobj__20 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__19, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_ABC_to_iReal_pyx, __pyx_n_s_getChordMeasures, 63, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__20)) __PYX_ERR(0, 63, __pyx_L1_error)
 
   /* "ABC_to_iReal.pyx":65
  *     def getChordMeasures(self):
@@ -5390,7 +5390,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__21 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_time_sig_str, __pyx_n_s_time_sig, __pyx_n_s_out, __pyx_n_s_url); if (unlikely(!__pyx_tuple__21)) __PYX_ERR(0, 65, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__21);
   __Pyx_GIVEREF(__pyx_tuple__21);
-  __pyx_codeobj__22 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__21, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_ABC_to_iReal_pyx, __pyx_n_s_to_iReal, 65, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__22)) __PYX_ERR(0, 65, __pyx_L1_error)
+  __pyx_codeobj__22 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__21, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_ABC_to_iReal_pyx, __pyx_n_s_to_iReal, 65, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__22)) __PYX_ERR(0, 65, __pyx_L1_error)
 
   /* "(tree fragment)":1
  * def __reduce_cython__(self):             # <<<<<<<<<<<<<<

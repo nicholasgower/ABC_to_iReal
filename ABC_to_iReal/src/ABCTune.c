@@ -5,7 +5,7 @@
     "distutils": {
         "name": "ABCTune",
         "sources": [
-            "ABCTune.pyx"
+            "src\\ABCTune.pyx"
         ]
     },
     "module_name": "ABCTune"
@@ -1461,7 +1461,7 @@ static const char *__pyx_filename;
 /* #### Code section: filename_table ### */
 
 static const char *__pyx_f[] = {
-  "ABCTune.pyx",
+  "src\\\\ABCTune.pyx",
   "<stringsource>",
 };
 /* #### Code section: utility_code_proto_before_types ### */
@@ -2412,7 +2412,6 @@ static const char __pyx_k_pyrealpro[] = "pyrealpro";
 static const char __pyx_k_pyx_state[] = "__pyx_state";
 static const char __pyx_k_reduce_ex[] = "__reduce_ex__";
 static const char __pyx_k_pyx_vtable[] = "__pyx_vtable__";
-static const char __pyx_k_ABCTune_pyx[] = "ABCTune.pyx";
 static const char __pyx_k_A_Za_z1_9_1[] = "\"[A-Za-z1-9#]{1,}\"";
 static const char __pyx_k_Medium_Swing[] = "Medium Swing";
 static const char __pyx_k_barline_open[] = "barline_open";
@@ -2426,6 +2425,7 @@ static const char __pyx_k_class_getitem[] = "__class_getitem__";
 static const char __pyx_k_reduce_cython[] = "__reduce_cython__";
 static const char __pyx_k_AssertionError[] = "AssertionError";
 static const char __pyx_k_setstate_cython[] = "__setstate_cython__";
+static const char __pyx_k_src_ABCTune_pyx[] = "src\\ABCTune.pyx";
 static const char __pyx_k_ABCTune_to_iReal[] = "ABCTune.to_iReal";
 static const char __pyx_k_getChordMeasures[] = "getChordMeasures";
 static const char __pyx_k_ABCTune_getChords[] = "ABCTune.getChords";
@@ -2480,7 +2480,6 @@ typedef struct {
   PyObject *__pyx_n_s_ABCTune___setstate_cython;
   PyObject *__pyx_n_s_ABCTune_getChordMeasures;
   PyObject *__pyx_n_s_ABCTune_getChords;
-  PyObject *__pyx_kp_s_ABCTune_pyx;
   PyObject *__pyx_n_s_ABCTune_to_iReal;
   PyObject *__pyx_kp_s_A_Za_z1_9_1;
   PyObject *__pyx_n_s_AssertionError;
@@ -2564,6 +2563,7 @@ typedef struct {
   PyObject *__pyx_n_s_setstate_cython;
   PyObject *__pyx_n_s_spec;
   PyObject *__pyx_n_s_split;
+  PyObject *__pyx_kp_s_src_ABCTune_pyx;
   PyObject *__pyx_kp_s_stringsource;
   PyObject *__pyx_n_s_style;
   PyObject *__pyx_n_s_test;
@@ -2635,7 +2635,6 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_ABCTune___setstate_cython);
   Py_CLEAR(clear_module_state->__pyx_n_s_ABCTune_getChordMeasures);
   Py_CLEAR(clear_module_state->__pyx_n_s_ABCTune_getChords);
-  Py_CLEAR(clear_module_state->__pyx_kp_s_ABCTune_pyx);
   Py_CLEAR(clear_module_state->__pyx_n_s_ABCTune_to_iReal);
   Py_CLEAR(clear_module_state->__pyx_kp_s_A_Za_z1_9_1);
   Py_CLEAR(clear_module_state->__pyx_n_s_AssertionError);
@@ -2719,6 +2718,7 @@ static int __pyx_m_clear(PyObject *m) {
   Py_CLEAR(clear_module_state->__pyx_n_s_setstate_cython);
   Py_CLEAR(clear_module_state->__pyx_n_s_spec);
   Py_CLEAR(clear_module_state->__pyx_n_s_split);
+  Py_CLEAR(clear_module_state->__pyx_kp_s_src_ABCTune_pyx);
   Py_CLEAR(clear_module_state->__pyx_kp_s_stringsource);
   Py_CLEAR(clear_module_state->__pyx_n_s_style);
   Py_CLEAR(clear_module_state->__pyx_n_s_test);
@@ -2768,7 +2768,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_ABCTune___setstate_cython);
   Py_VISIT(traverse_module_state->__pyx_n_s_ABCTune_getChordMeasures);
   Py_VISIT(traverse_module_state->__pyx_n_s_ABCTune_getChords);
-  Py_VISIT(traverse_module_state->__pyx_kp_s_ABCTune_pyx);
   Py_VISIT(traverse_module_state->__pyx_n_s_ABCTune_to_iReal);
   Py_VISIT(traverse_module_state->__pyx_kp_s_A_Za_z1_9_1);
   Py_VISIT(traverse_module_state->__pyx_n_s_AssertionError);
@@ -2852,6 +2851,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
   Py_VISIT(traverse_module_state->__pyx_n_s_setstate_cython);
   Py_VISIT(traverse_module_state->__pyx_n_s_spec);
   Py_VISIT(traverse_module_state->__pyx_n_s_split);
+  Py_VISIT(traverse_module_state->__pyx_kp_s_src_ABCTune_pyx);
   Py_VISIT(traverse_module_state->__pyx_kp_s_stringsource);
   Py_VISIT(traverse_module_state->__pyx_n_s_style);
   Py_VISIT(traverse_module_state->__pyx_n_s_test);
@@ -2911,7 +2911,6 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_ABCTune___setstate_cython __pyx_mstate_global->__pyx_n_s_ABCTune___setstate_cython
 #define __pyx_n_s_ABCTune_getChordMeasures __pyx_mstate_global->__pyx_n_s_ABCTune_getChordMeasures
 #define __pyx_n_s_ABCTune_getChords __pyx_mstate_global->__pyx_n_s_ABCTune_getChords
-#define __pyx_kp_s_ABCTune_pyx __pyx_mstate_global->__pyx_kp_s_ABCTune_pyx
 #define __pyx_n_s_ABCTune_to_iReal __pyx_mstate_global->__pyx_n_s_ABCTune_to_iReal
 #define __pyx_kp_s_A_Za_z1_9_1 __pyx_mstate_global->__pyx_kp_s_A_Za_z1_9_1
 #define __pyx_n_s_AssertionError __pyx_mstate_global->__pyx_n_s_AssertionError
@@ -2995,6 +2994,7 @@ static int __pyx_m_traverse(PyObject *m, visitproc visit, void *arg) {
 #define __pyx_n_s_setstate_cython __pyx_mstate_global->__pyx_n_s_setstate_cython
 #define __pyx_n_s_spec __pyx_mstate_global->__pyx_n_s_spec
 #define __pyx_n_s_split __pyx_mstate_global->__pyx_n_s_split
+#define __pyx_kp_s_src_ABCTune_pyx __pyx_mstate_global->__pyx_kp_s_src_ABCTune_pyx
 #define __pyx_kp_s_stringsource __pyx_mstate_global->__pyx_kp_s_stringsource
 #define __pyx_n_s_style __pyx_mstate_global->__pyx_n_s_style
 #define __pyx_n_s_test __pyx_mstate_global->__pyx_n_s_test
@@ -3887,9 +3887,9 @@ static PyObject *__pyx_f_7ABCTune_7ABCTune_getChords(struct __pyx_obj_7ABCTune_A
   CYTHON_UNUSED PyObject *__pyx_v_chord = NULL;
   PyObject *__pyx_v_measures = 0;
   PyObject *__pyx_v_out = 0;
-  int __pyx_v_inQuote;
   CYTHON_UNUSED int __pyx_v_inCurly;
   PyObject *__pyx_v_char = NULL;
+  int __pyx_v_inQuote;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
   PyObject *__pyx_t_1 = NULL;
@@ -3963,7 +3963,7 @@ static PyObject *__pyx_f_7ABCTune_7ABCTune_getChords(struct __pyx_obj_7ABCTune_A
  *     cpdef str getChords(self):
  *         chord= re.compile('\"[A-Za-z1-9#]{1,}\"')             # <<<<<<<<<<<<<<
  *         cdef str measures, out
- *         #cdef bool inQuote,inCurly
+ * 
  */
   __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_re); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 40, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
@@ -3997,10 +3997,10 @@ static PyObject *__pyx_f_7ABCTune_7ABCTune_getChords(struct __pyx_obj_7ABCTune_A
 
   /* "ABCTune.pyx":43
  *         cdef str measures, out
- *         #cdef bool inQuote,inCurly
+ * 
  *         measures="\n".join(self.sections["notes"])             # <<<<<<<<<<<<<<
  *         out=""
- *         cdef bint inQuote=False
+ *         cdef bint inCurly=False
  */
   __pyx_t_1 = __Pyx_PyObject_Dict_GetItem(__pyx_v_self->sections, __pyx_n_s_notes); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 43, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -4012,11 +4012,11 @@ static PyObject *__pyx_f_7ABCTune_7ABCTune_getChords(struct __pyx_obj_7ABCTune_A
   __pyx_t_3 = 0;
 
   /* "ABCTune.pyx":44
- *         #cdef bool inQuote,inCurly
+ * 
  *         measures="\n".join(self.sections["notes"])
  *         out=""             # <<<<<<<<<<<<<<
- *         cdef bint inQuote=False
  *         cdef bint inCurly=False
+ * 
  */
   __Pyx_INCREF(__pyx_kp_s__6);
   __pyx_v_out = __pyx_kp_s__6;
@@ -4024,31 +4024,22 @@ static PyObject *__pyx_f_7ABCTune_7ABCTune_getChords(struct __pyx_obj_7ABCTune_A
   /* "ABCTune.pyx":45
  *         measures="\n".join(self.sections["notes"])
  *         out=""
- *         cdef bint inQuote=False             # <<<<<<<<<<<<<<
- *         cdef bint inCurly=False
- * 
- */
-  __pyx_v_inQuote = 0;
-
-  /* "ABCTune.pyx":46
- *         out=""
- *         cdef bint inQuote=False
  *         cdef bint inCurly=False             # <<<<<<<<<<<<<<
  * 
  *         for char in measures:
  */
   __pyx_v_inCurly = 0;
 
-  /* "ABCTune.pyx":48
+  /* "ABCTune.pyx":47
  *         cdef bint inCurly=False
  * 
  *         for char in measures:             # <<<<<<<<<<<<<<
  *             if char in ":|{}[]\n! ":
  *                 out+=char
  */
-  __pyx_t_3 = PyObject_GetIter(__pyx_v_measures); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 48, __pyx_L1_error)
+  __pyx_t_3 = PyObject_GetIter(__pyx_v_measures); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 47, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_6 = __Pyx_PyObject_GetIterNextFunc(__pyx_t_3); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 48, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetIterNextFunc(__pyx_t_3); if (unlikely(!__pyx_t_6)) __PYX_ERR(0, 47, __pyx_L1_error)
   for (;;) {
     {
       __pyx_t_1 = __pyx_t_6(__pyx_t_3);
@@ -4056,7 +4047,7 @@ static PyObject *__pyx_f_7ABCTune_7ABCTune_getChords(struct __pyx_obj_7ABCTune_A
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(0, 48, __pyx_L1_error)
+          else __PYX_ERR(0, 47, __pyx_L1_error)
         }
         break;
       }
@@ -4065,30 +4056,30 @@ static PyObject *__pyx_f_7ABCTune_7ABCTune_getChords(struct __pyx_obj_7ABCTune_A
     __Pyx_XDECREF_SET(__pyx_v_char, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "ABCTune.pyx":49
+    /* "ABCTune.pyx":48
  * 
  *         for char in measures:
  *             if char in ":|{}[]\n! ":             # <<<<<<<<<<<<<<
  *                 out+=char
  * 
  */
-    __pyx_t_7 = (__Pyx_PySequence_ContainsTF(__pyx_v_char, __pyx_kp_s__7, Py_EQ)); if (unlikely((__pyx_t_7 < 0))) __PYX_ERR(0, 49, __pyx_L1_error)
+    __pyx_t_7 = (__Pyx_PySequence_ContainsTF(__pyx_v_char, __pyx_kp_s__7, Py_EQ)); if (unlikely((__pyx_t_7 < 0))) __PYX_ERR(0, 48, __pyx_L1_error)
     if (__pyx_t_7) {
 
-      /* "ABCTune.pyx":50
+      /* "ABCTune.pyx":49
  *         for char in measures:
  *             if char in ":|{}[]\n! ":
  *                 out+=char             # <<<<<<<<<<<<<<
  * 
  *             elif char == '"':
  */
-      __pyx_t_1 = PyNumber_InPlaceAdd(__pyx_v_out, __pyx_v_char); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 50, __pyx_L1_error)
+      __pyx_t_1 = PyNumber_InPlaceAdd(__pyx_v_out, __pyx_v_char); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 49, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      if (!(likely(PyString_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None) || __Pyx_RaiseUnexpectedTypeError("str", __pyx_t_1))) __PYX_ERR(0, 50, __pyx_L1_error)
+      if (!(likely(PyString_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None) || __Pyx_RaiseUnexpectedTypeError("str", __pyx_t_1))) __PYX_ERR(0, 49, __pyx_L1_error)
       __Pyx_DECREF_SET(__pyx_v_out, ((PyObject*)__pyx_t_1));
       __pyx_t_1 = 0;
 
-      /* "ABCTune.pyx":49
+      /* "ABCTune.pyx":48
  * 
  *         for char in measures:
  *             if char in ":|{}[]\n! ":             # <<<<<<<<<<<<<<
@@ -4098,39 +4089,39 @@ static PyObject *__pyx_f_7ABCTune_7ABCTune_getChords(struct __pyx_obj_7ABCTune_A
       goto __pyx_L5;
     }
 
-    /* "ABCTune.pyx":52
+    /* "ABCTune.pyx":51
  *                 out+=char
  * 
  *             elif char == '"':             # <<<<<<<<<<<<<<
  *                 inQuote=not inQuote
  *                 out+=char
  */
-    __pyx_t_7 = (__Pyx_PyString_Equals(__pyx_v_char, __pyx_kp_s__8, Py_EQ)); if (unlikely((__pyx_t_7 < 0))) __PYX_ERR(0, 52, __pyx_L1_error)
+    __pyx_t_7 = (__Pyx_PyString_Equals(__pyx_v_char, __pyx_kp_s__8, Py_EQ)); if (unlikely((__pyx_t_7 < 0))) __PYX_ERR(0, 51, __pyx_L1_error)
     if (__pyx_t_7) {
-
-      /* "ABCTune.pyx":53
- * 
- *             elif char == '"':
- *                 inQuote=not inQuote             # <<<<<<<<<<<<<<
- *                 out+=char
- *             elif char in '{}':
- */
-      __pyx_v_inQuote = (!__pyx_v_inQuote);
-
-      /* "ABCTune.pyx":54
- *             elif char == '"':
- *                 inQuote=not inQuote
- *                 out+=char             # <<<<<<<<<<<<<<
- *             elif char in '{}':
- *                 inQuote=not inQuote
- */
-      __pyx_t_1 = PyNumber_InPlaceAdd(__pyx_v_out, __pyx_v_char); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 54, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_1);
-      if (!(likely(PyString_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None) || __Pyx_RaiseUnexpectedTypeError("str", __pyx_t_1))) __PYX_ERR(0, 54, __pyx_L1_error)
-      __Pyx_DECREF_SET(__pyx_v_out, ((PyObject*)__pyx_t_1));
-      __pyx_t_1 = 0;
 
       /* "ABCTune.pyx":52
+ * 
+ *             elif char == '"':
+ *                 inQuote=not inQuote             # <<<<<<<<<<<<<<
+ *                 out+=char
+ *             elif char in '{}':
+ */
+      __pyx_v_inQuote = (!__pyx_v_inQuote);
+
+      /* "ABCTune.pyx":53
+ *             elif char == '"':
+ *                 inQuote=not inQuote
+ *                 out+=char             # <<<<<<<<<<<<<<
+ *             elif char in '{}':
+ *                 inQuote=not inQuote
+ */
+      __pyx_t_1 = PyNumber_InPlaceAdd(__pyx_v_out, __pyx_v_char); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 53, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_1);
+      if (!(likely(PyString_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None) || __Pyx_RaiseUnexpectedTypeError("str", __pyx_t_1))) __PYX_ERR(0, 53, __pyx_L1_error)
+      __Pyx_DECREF_SET(__pyx_v_out, ((PyObject*)__pyx_t_1));
+      __pyx_t_1 = 0;
+
+      /* "ABCTune.pyx":51
  *                 out+=char
  * 
  *             elif char == '"':             # <<<<<<<<<<<<<<
@@ -4140,17 +4131,17 @@ static PyObject *__pyx_f_7ABCTune_7ABCTune_getChords(struct __pyx_obj_7ABCTune_A
       goto __pyx_L5;
     }
 
-    /* "ABCTune.pyx":55
+    /* "ABCTune.pyx":54
  *                 inQuote=not inQuote
  *                 out+=char
  *             elif char in '{}':             # <<<<<<<<<<<<<<
  *                 inQuote=not inQuote
  *                 out+=char
  */
-    __pyx_t_7 = (__Pyx_PySequence_ContainsTF(__pyx_v_char, __pyx_kp_s__9, Py_EQ)); if (unlikely((__pyx_t_7 < 0))) __PYX_ERR(0, 55, __pyx_L1_error)
+    __pyx_t_7 = (__Pyx_PySequence_ContainsTF(__pyx_v_char, __pyx_kp_s__9, Py_EQ)); if (unlikely((__pyx_t_7 < 0))) __PYX_ERR(0, 54, __pyx_L1_error)
     if (__pyx_t_7) {
 
-      /* "ABCTune.pyx":56
+      /* "ABCTune.pyx":55
  *                 out+=char
  *             elif char in '{}':
  *                 inQuote=not inQuote             # <<<<<<<<<<<<<<
@@ -4159,20 +4150,20 @@ static PyObject *__pyx_f_7ABCTune_7ABCTune_getChords(struct __pyx_obj_7ABCTune_A
  */
       __pyx_v_inQuote = (!__pyx_v_inQuote);
 
-      /* "ABCTune.pyx":57
+      /* "ABCTune.pyx":56
  *             elif char in '{}':
  *                 inQuote=not inQuote
  *                 out+=char             # <<<<<<<<<<<<<<
  *             elif inQuote:
  *                 out+=char
  */
-      __pyx_t_1 = PyNumber_InPlaceAdd(__pyx_v_out, __pyx_v_char); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 57, __pyx_L1_error)
+      __pyx_t_1 = PyNumber_InPlaceAdd(__pyx_v_out, __pyx_v_char); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 56, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      if (!(likely(PyString_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None) || __Pyx_RaiseUnexpectedTypeError("str", __pyx_t_1))) __PYX_ERR(0, 57, __pyx_L1_error)
+      if (!(likely(PyString_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None) || __Pyx_RaiseUnexpectedTypeError("str", __pyx_t_1))) __PYX_ERR(0, 56, __pyx_L1_error)
       __Pyx_DECREF_SET(__pyx_v_out, ((PyObject*)__pyx_t_1));
       __pyx_t_1 = 0;
 
-      /* "ABCTune.pyx":55
+      /* "ABCTune.pyx":54
  *                 inQuote=not inQuote
  *                 out+=char
  *             elif char in '{}':             # <<<<<<<<<<<<<<
@@ -4182,7 +4173,7 @@ static PyObject *__pyx_f_7ABCTune_7ABCTune_getChords(struct __pyx_obj_7ABCTune_A
       goto __pyx_L5;
     }
 
-    /* "ABCTune.pyx":58
+    /* "ABCTune.pyx":57
  *                 inQuote=not inQuote
  *                 out+=char
  *             elif inQuote:             # <<<<<<<<<<<<<<
@@ -4191,20 +4182,20 @@ static PyObject *__pyx_f_7ABCTune_7ABCTune_getChords(struct __pyx_obj_7ABCTune_A
  */
     if (__pyx_v_inQuote) {
 
-      /* "ABCTune.pyx":59
+      /* "ABCTune.pyx":58
  *                 out+=char
  *             elif inQuote:
  *                 out+=char             # <<<<<<<<<<<<<<
  *             elif char.isalpha():
  *                 out+="z"
  */
-      __pyx_t_1 = PyNumber_InPlaceAdd(__pyx_v_out, __pyx_v_char); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 59, __pyx_L1_error)
+      __pyx_t_1 = PyNumber_InPlaceAdd(__pyx_v_out, __pyx_v_char); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 58, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      if (!(likely(PyString_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None) || __Pyx_RaiseUnexpectedTypeError("str", __pyx_t_1))) __PYX_ERR(0, 59, __pyx_L1_error)
+      if (!(likely(PyString_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None) || __Pyx_RaiseUnexpectedTypeError("str", __pyx_t_1))) __PYX_ERR(0, 58, __pyx_L1_error)
       __Pyx_DECREF_SET(__pyx_v_out, ((PyObject*)__pyx_t_1));
       __pyx_t_1 = 0;
 
-      /* "ABCTune.pyx":58
+      /* "ABCTune.pyx":57
  *                 inQuote=not inQuote
  *                 out+=char
  *             elif inQuote:             # <<<<<<<<<<<<<<
@@ -4214,14 +4205,14 @@ static PyObject *__pyx_f_7ABCTune_7ABCTune_getChords(struct __pyx_obj_7ABCTune_A
       goto __pyx_L5;
     }
 
-    /* "ABCTune.pyx":60
+    /* "ABCTune.pyx":59
  *             elif inQuote:
  *                 out+=char
  *             elif char.isalpha():             # <<<<<<<<<<<<<<
  *                 out+="z"
  *             elif char.isnumeric():
  */
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_char, __pyx_n_s_isalpha); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 60, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_char, __pyx_n_s_isalpha); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 59, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_t_4 = NULL;
     __pyx_t_5 = 0;
@@ -4241,27 +4232,27 @@ static PyObject *__pyx_f_7ABCTune_7ABCTune_getChords(struct __pyx_obj_7ABCTune_A
       PyObject *__pyx_callargs[2] = {__pyx_t_4, NULL};
       __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_5, 0+__pyx_t_5);
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 60, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 59, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     }
-    __pyx_t_7 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_7 < 0))) __PYX_ERR(0, 60, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_7 < 0))) __PYX_ERR(0, 59, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (__pyx_t_7) {
 
-      /* "ABCTune.pyx":61
+      /* "ABCTune.pyx":60
  *                 out+=char
  *             elif char.isalpha():
  *                 out+="z"             # <<<<<<<<<<<<<<
  *             elif char.isnumeric():
  *                 out+=char
  */
-      __pyx_t_1 = __Pyx_PyStr_ConcatInPlaceSafe(__pyx_v_out, __pyx_n_s_z); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 61, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyStr_ConcatInPlaceSafe(__pyx_v_out, __pyx_n_s_z); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 60, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF_SET(__pyx_v_out, ((PyObject*)__pyx_t_1));
       __pyx_t_1 = 0;
 
-      /* "ABCTune.pyx":60
+      /* "ABCTune.pyx":59
  *             elif inQuote:
  *                 out+=char
  *             elif char.isalpha():             # <<<<<<<<<<<<<<
@@ -4271,14 +4262,14 @@ static PyObject *__pyx_f_7ABCTune_7ABCTune_getChords(struct __pyx_obj_7ABCTune_A
       goto __pyx_L5;
     }
 
-    /* "ABCTune.pyx":62
+    /* "ABCTune.pyx":61
  *             elif char.isalpha():
  *                 out+="z"
  *             elif char.isnumeric():             # <<<<<<<<<<<<<<
  *                 out+=char
  *         return out
  */
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_char, __pyx_n_s_isnumeric); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 62, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_v_char, __pyx_n_s_isnumeric); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 61, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_t_4 = NULL;
     __pyx_t_5 = 0;
@@ -4298,28 +4289,28 @@ static PyObject *__pyx_f_7ABCTune_7ABCTune_getChords(struct __pyx_obj_7ABCTune_A
       PyObject *__pyx_callargs[2] = {__pyx_t_4, NULL};
       __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_5, 0+__pyx_t_5);
       __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 62, __pyx_L1_error)
+      if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 61, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     }
-    __pyx_t_7 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_7 < 0))) __PYX_ERR(0, 62, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely((__pyx_t_7 < 0))) __PYX_ERR(0, 61, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     if (__pyx_t_7) {
 
-      /* "ABCTune.pyx":63
+      /* "ABCTune.pyx":62
  *                 out+="z"
  *             elif char.isnumeric():
  *                 out+=char             # <<<<<<<<<<<<<<
  *         return out
  *     def getChordMeasures(self):
  */
-      __pyx_t_1 = PyNumber_InPlaceAdd(__pyx_v_out, __pyx_v_char); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 63, __pyx_L1_error)
+      __pyx_t_1 = PyNumber_InPlaceAdd(__pyx_v_out, __pyx_v_char); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 62, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      if (!(likely(PyString_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None) || __Pyx_RaiseUnexpectedTypeError("str", __pyx_t_1))) __PYX_ERR(0, 63, __pyx_L1_error)
+      if (!(likely(PyString_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None) || __Pyx_RaiseUnexpectedTypeError("str", __pyx_t_1))) __PYX_ERR(0, 62, __pyx_L1_error)
       __Pyx_DECREF_SET(__pyx_v_out, ((PyObject*)__pyx_t_1));
       __pyx_t_1 = 0;
 
-      /* "ABCTune.pyx":62
+      /* "ABCTune.pyx":61
  *             elif char.isalpha():
  *                 out+="z"
  *             elif char.isnumeric():             # <<<<<<<<<<<<<<
@@ -4329,7 +4320,7 @@ static PyObject *__pyx_f_7ABCTune_7ABCTune_getChords(struct __pyx_obj_7ABCTune_A
     }
     __pyx_L5:;
 
-    /* "ABCTune.pyx":48
+    /* "ABCTune.pyx":47
  *         cdef bint inCurly=False
  * 
  *         for char in measures:             # <<<<<<<<<<<<<<
@@ -4339,7 +4330,7 @@ static PyObject *__pyx_f_7ABCTune_7ABCTune_getChords(struct __pyx_obj_7ABCTune_A
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "ABCTune.pyx":64
+  /* "ABCTune.pyx":63
  *             elif char.isnumeric():
  *                 out+=char
  *         return out             # <<<<<<<<<<<<<<
@@ -4444,7 +4435,7 @@ static PyObject *__pyx_pf_7ABCTune_7ABCTune_4getChords(struct __pyx_obj_7ABCTune
   return __pyx_r;
 }
 
-/* "ABCTune.pyx":65
+/* "ABCTune.pyx":64
  *                 out+=char
  *         return out
  *     def getChordMeasures(self):             # <<<<<<<<<<<<<<
@@ -4506,16 +4497,16 @@ static PyObject *__pyx_pf_7ABCTune_7ABCTune_6getChordMeasures(struct __pyx_obj_7
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("getChordMeasures", 1);
 
-  /* "ABCTune.pyx":66
+  /* "ABCTune.pyx":65
  *         return out
  *     def getChordMeasures(self):
  *         measures=self.getChords().split("|")             # <<<<<<<<<<<<<<
  *     def to_iReal(self):
  *         time_sig_str=self.sections["M"][0].split("/")
  */
-  __pyx_t_2 = ((struct __pyx_vtabstruct_7ABCTune_ABCTune *)__pyx_v_self->__pyx_vtab)->getChords(__pyx_v_self, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 66, __pyx_L1_error)
+  __pyx_t_2 = ((struct __pyx_vtabstruct_7ABCTune_ABCTune *)__pyx_v_self->__pyx_vtab)->getChords(__pyx_v_self, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 65, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_split); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 66, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_split); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 65, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_2 = NULL;
@@ -4536,14 +4527,14 @@ static PyObject *__pyx_pf_7ABCTune_7ABCTune_6getChordMeasures(struct __pyx_obj_7
     PyObject *__pyx_callargs[2] = {__pyx_t_2, __pyx_kp_s__10};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_3, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 66, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 65, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   }
   __pyx_v_measures = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "ABCTune.pyx":65
+  /* "ABCTune.pyx":64
  *                 out+=char
  *         return out
  *     def getChordMeasures(self):             # <<<<<<<<<<<<<<
@@ -4567,7 +4558,7 @@ static PyObject *__pyx_pf_7ABCTune_7ABCTune_6getChordMeasures(struct __pyx_obj_7
   return __pyx_r;
 }
 
-/* "ABCTune.pyx":67
+/* "ABCTune.pyx":66
  *     def getChordMeasures(self):
  *         measures=self.getChords().split("|")
  *     def to_iReal(self):             # <<<<<<<<<<<<<<
@@ -4634,19 +4625,19 @@ static PyObject *__pyx_pf_7ABCTune_7ABCTune_8to_iReal(struct __pyx_obj_7ABCTune_
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("to_iReal", 1);
 
-  /* "ABCTune.pyx":68
+  /* "ABCTune.pyx":67
  *         measures=self.getChords().split("|")
  *     def to_iReal(self):
  *         time_sig_str=self.sections["M"][0].split("/")             # <<<<<<<<<<<<<<
  *         time_sig=TimeSignature(beats=int(time_sig_str[0]),duration=int(time_sig_str[1]))
  * 
  */
-  __pyx_t_2 = __Pyx_PyObject_Dict_GetItem(__pyx_v_self->sections, __pyx_n_s_M); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 68, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_Dict_GetItem(__pyx_v_self->sections, __pyx_n_s_M); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 67, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 68, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_GetItemInt(__pyx_t_2, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 67, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_split); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 68, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_split); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 67, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -4667,174 +4658,174 @@ static PyObject *__pyx_pf_7ABCTune_7ABCTune_8to_iReal(struct __pyx_obj_7ABCTune_
     PyObject *__pyx_callargs[2] = {__pyx_t_3, __pyx_kp_s__11};
     __pyx_t_1 = __Pyx_PyObject_FastCall(__pyx_t_2, __pyx_callargs+1-__pyx_t_4, 1+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 68, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 67, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   }
   __pyx_v_time_sig_str = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "ABCTune.pyx":69
+  /* "ABCTune.pyx":68
  *     def to_iReal(self):
  *         time_sig_str=self.sections["M"][0].split("/")
  *         time_sig=TimeSignature(beats=int(time_sig_str[0]),duration=int(time_sig_str[1]))             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_TimeSignature); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 69, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_TimeSignature); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 68, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 69, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 68, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_GetItemInt(__pyx_v_time_sig_str, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 69, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_GetItemInt(__pyx_v_time_sig_str, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 68, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyNumber_Int(__pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 69, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyNumber_Int(__pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 68, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_beats, __pyx_t_5) < 0) __PYX_ERR(0, 69, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_beats, __pyx_t_5) < 0) __PYX_ERR(0, 68, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_time_sig_str, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 69, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_v_time_sig_str, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 68, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_3 = __Pyx_PyNumber_Int(__pyx_t_5); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 69, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyNumber_Int(__pyx_t_5); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 68, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_duration, __pyx_t_3) < 0) __PYX_ERR(0, 69, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_duration, __pyx_t_3) < 0) __PYX_ERR(0, 68, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 69, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 68, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_time_sig = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "ABCTune.pyx":72
+  /* "ABCTune.pyx":71
  * 
  * 
  *         out=pyrealpro.Song(             # <<<<<<<<<<<<<<
  *             title=self.sections["T"][0],
  *             key=self.sections["K"][0],
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_pyrealpro); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 72, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_pyrealpro); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 71, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_Song); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 72, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_Song); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 71, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "ABCTune.pyx":73
+  /* "ABCTune.pyx":72
  * 
  *         out=pyrealpro.Song(
  *             title=self.sections["T"][0],             # <<<<<<<<<<<<<<
  *             key=self.sections["K"][0],
  *             style="Medium Swing",
  */
-  __pyx_t_3 = __Pyx_PyDict_NewPresized(4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 73, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyDict_NewPresized(4); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 72, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_1 = __Pyx_PyObject_Dict_GetItem(__pyx_v_self->sections, __pyx_n_s_T); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 73, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Dict_GetItem(__pyx_v_self->sections, __pyx_n_s_T); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 72, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_t_1, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 73, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_t_1, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 72, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_title, __pyx_t_5) < 0) __PYX_ERR(0, 73, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_title, __pyx_t_5) < 0) __PYX_ERR(0, 72, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "ABCTune.pyx":74
+  /* "ABCTune.pyx":73
  *         out=pyrealpro.Song(
  *             title=self.sections["T"][0],
  *             key=self.sections["K"][0],             # <<<<<<<<<<<<<<
  *             style="Medium Swing",
  *             composer=self.sections["C"][0]
  */
-  __pyx_t_5 = __Pyx_PyObject_Dict_GetItem(__pyx_v_self->sections, __pyx_n_s_K); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 74, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_Dict_GetItem(__pyx_v_self->sections, __pyx_n_s_K); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 73, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_1 = __Pyx_GetItemInt(__pyx_t_5, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 74, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt(__pyx_t_5, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 73, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_key, __pyx_t_1) < 0) __PYX_ERR(0, 73, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_key, __pyx_t_1) < 0) __PYX_ERR(0, 72, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_style, __pyx_kp_s_Medium_Swing) < 0) __PYX_ERR(0, 73, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_style, __pyx_kp_s_Medium_Swing) < 0) __PYX_ERR(0, 72, __pyx_L1_error)
 
-  /* "ABCTune.pyx":76
+  /* "ABCTune.pyx":75
  *             key=self.sections["K"][0],
  *             style="Medium Swing",
  *             composer=self.sections["C"][0]             # <<<<<<<<<<<<<<
  *             )
  * 
  */
-  __pyx_t_1 = __Pyx_PyObject_Dict_GetItem(__pyx_v_self->sections, __pyx_n_s_C); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 76, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Dict_GetItem(__pyx_v_self->sections, __pyx_n_s_C); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 75, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_5 = __Pyx_GetItemInt(__pyx_t_1, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 76, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_GetItemInt(__pyx_t_1, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 75, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_composer, __pyx_t_5) < 0) __PYX_ERR(0, 73, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_composer, __pyx_t_5) < 0) __PYX_ERR(0, 72, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-  /* "ABCTune.pyx":72
+  /* "ABCTune.pyx":71
  * 
  * 
  *         out=pyrealpro.Song(             # <<<<<<<<<<<<<<
  *             title=self.sections["T"][0],
  *             key=self.sections["K"][0],
  */
-  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_empty_tuple, __pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 72, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_empty_tuple, __pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 71, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_out = __pyx_t_5;
   __pyx_t_5 = 0;
 
-  /* "ABCTune.pyx":80
+  /* "ABCTune.pyx":79
  * 
  * 
  *         out.measures.append(Measure(chords="C7",barline_open="{"))             # <<<<<<<<<<<<<<
  *         out.measures.append(Measure(chords="D7",barline_open="}"))
  *         url=out.url()
  */
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_out, __pyx_n_s_measures); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 80, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_out, __pyx_n_s_measures); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 79, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_Measure); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 80, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_Measure); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 79, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_2 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 80, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 79, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_chords, __pyx_n_s_C7) < 0) __PYX_ERR(0, 80, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_barline_open, __pyx_kp_s__12) < 0) __PYX_ERR(0, 80, __pyx_L1_error)
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 80, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_chords, __pyx_n_s_C7) < 0) __PYX_ERR(0, 79, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_barline_open, __pyx_kp_s__12) < 0) __PYX_ERR(0, 79, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 79, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_6 = __Pyx_PyObject_Append(__pyx_t_5, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 80, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_Append(__pyx_t_5, __pyx_t_1); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 79, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "ABCTune.pyx":81
+  /* "ABCTune.pyx":80
  * 
  *         out.measures.append(Measure(chords="C7",barline_open="{"))
  *         out.measures.append(Measure(chords="D7",barline_open="}"))             # <<<<<<<<<<<<<<
  *         url=out.url()
  * 
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_out, __pyx_n_s_measures); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 81, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_out, __pyx_n_s_measures); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 80, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_Measure); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 81, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_Measure); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 80, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 81, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyDict_NewPresized(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 80, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_chords, __pyx_n_s_D7) < 0) __PYX_ERR(0, 81, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_barline_open, __pyx_kp_s__13) < 0) __PYX_ERR(0, 81, __pyx_L1_error)
-  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 81, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_chords, __pyx_n_s_D7) < 0) __PYX_ERR(0, 80, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_2, __pyx_n_s_barline_open, __pyx_kp_s__13) < 0) __PYX_ERR(0, 80, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_empty_tuple, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 80, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_6 = __Pyx_PyObject_Append(__pyx_t_1, __pyx_t_3); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 81, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_Append(__pyx_t_1, __pyx_t_3); if (unlikely(__pyx_t_6 == ((int)-1))) __PYX_ERR(0, 80, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-  /* "ABCTune.pyx":82
+  /* "ABCTune.pyx":81
  *         out.measures.append(Measure(chords="C7",barline_open="{"))
  *         out.measures.append(Measure(chords="D7",barline_open="}"))
  *         url=out.url()             # <<<<<<<<<<<<<<
  * 
  *         return url.replace("irealbook://","irealb://")
  */
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_out, __pyx_n_s_url); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 82, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_out, __pyx_n_s_url); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 81, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_2 = NULL;
   __pyx_t_4 = 0;
@@ -4854,14 +4845,14 @@ static PyObject *__pyx_pf_7ABCTune_7ABCTune_8to_iReal(struct __pyx_obj_7ABCTune_
     PyObject *__pyx_callargs[2] = {__pyx_t_2, NULL};
     __pyx_t_3 = __Pyx_PyObject_FastCall(__pyx_t_1, __pyx_callargs+1-__pyx_t_4, 0+__pyx_t_4);
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 82, __pyx_L1_error)
+    if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 81, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   }
   __pyx_v_url = __pyx_t_3;
   __pyx_t_3 = 0;
 
-  /* "ABCTune.pyx":84
+  /* "ABCTune.pyx":83
  *         url=out.url()
  * 
  *         return url.replace("irealbook://","irealb://")             # <<<<<<<<<<<<<<
@@ -4869,16 +4860,16 @@ static PyObject *__pyx_pf_7ABCTune_7ABCTune_8to_iReal(struct __pyx_obj_7ABCTune_
  * #def iReal_to_ABC(link):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_url, __pyx_n_s_replace); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 84, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_url, __pyx_n_s_replace); if (unlikely(!__pyx_t_3)) __PYX_ERR(0, 83, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_tuple__14, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 84, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_tuple__14, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 83, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "ABCTune.pyx":67
+  /* "ABCTune.pyx":66
  *     def getChordMeasures(self):
  *         measures=self.getChords().split("|")
  *     def to_iReal(self):             # <<<<<<<<<<<<<<
@@ -5313,7 +5304,6 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_ABCTune___setstate_cython, __pyx_k_ABCTune___setstate_cython, sizeof(__pyx_k_ABCTune___setstate_cython), 0, 0, 1, 1},
     {&__pyx_n_s_ABCTune_getChordMeasures, __pyx_k_ABCTune_getChordMeasures, sizeof(__pyx_k_ABCTune_getChordMeasures), 0, 0, 1, 1},
     {&__pyx_n_s_ABCTune_getChords, __pyx_k_ABCTune_getChords, sizeof(__pyx_k_ABCTune_getChords), 0, 0, 1, 1},
-    {&__pyx_kp_s_ABCTune_pyx, __pyx_k_ABCTune_pyx, sizeof(__pyx_k_ABCTune_pyx), 0, 0, 1, 0},
     {&__pyx_n_s_ABCTune_to_iReal, __pyx_k_ABCTune_to_iReal, sizeof(__pyx_k_ABCTune_to_iReal), 0, 0, 1, 1},
     {&__pyx_kp_s_A_Za_z1_9_1, __pyx_k_A_Za_z1_9_1, sizeof(__pyx_k_A_Za_z1_9_1), 0, 0, 1, 0},
     {&__pyx_n_s_AssertionError, __pyx_k_AssertionError, sizeof(__pyx_k_AssertionError), 0, 0, 1, 1},
@@ -5397,6 +5387,7 @@ static int __Pyx_CreateStringTabAndInitStrings(void) {
     {&__pyx_n_s_setstate_cython, __pyx_k_setstate_cython, sizeof(__pyx_k_setstate_cython), 0, 0, 1, 1},
     {&__pyx_n_s_spec, __pyx_k_spec, sizeof(__pyx_k_spec), 0, 0, 1, 1},
     {&__pyx_n_s_split, __pyx_k_split, sizeof(__pyx_k_split), 0, 0, 1, 1},
+    {&__pyx_kp_s_src_ABCTune_pyx, __pyx_k_src_ABCTune_pyx, sizeof(__pyx_k_src_ABCTune_pyx), 0, 0, 1, 0},
     {&__pyx_kp_s_stringsource, __pyx_k_stringsource, sizeof(__pyx_k_stringsource), 0, 0, 1, 0},
     {&__pyx_n_s_style, __pyx_k_style, sizeof(__pyx_k_style), 0, 0, 1, 1},
     {&__pyx_n_s_test, __pyx_k_test, sizeof(__pyx_k_test), 0, 0, 1, 1},
@@ -5448,14 +5439,14 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__4);
   __Pyx_GIVEREF(__pyx_tuple__4);
 
-  /* "ABCTune.pyx":84
+  /* "ABCTune.pyx":83
  *         url=out.url()
  * 
  *         return url.replace("irealbook://","irealb://")             # <<<<<<<<<<<<<<
  * 
  * #def iReal_to_ABC(link):
  */
-  __pyx_tuple__14 = PyTuple_Pack(2, __pyx_kp_s_irealbook, __pyx_kp_s_irealb); if (unlikely(!__pyx_tuple__14)) __PYX_ERR(0, 84, __pyx_L1_error)
+  __pyx_tuple__14 = PyTuple_Pack(2, __pyx_kp_s_irealbook, __pyx_kp_s_irealb); if (unlikely(!__pyx_tuple__14)) __PYX_ERR(0, 83, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__14);
   __Pyx_GIVEREF(__pyx_tuple__14);
 
@@ -5469,31 +5460,31 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__17 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__17)) __PYX_ERR(0, 39, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__17);
   __Pyx_GIVEREF(__pyx_tuple__17);
-  __pyx_codeobj__18 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__17, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_ABCTune_pyx, __pyx_n_s_getChords, 39, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__18)) __PYX_ERR(0, 39, __pyx_L1_error)
+  __pyx_codeobj__18 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 1, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__17, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_ABCTune_pyx, __pyx_n_s_getChords, 39, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__18)) __PYX_ERR(0, 39, __pyx_L1_error)
 
-  /* "ABCTune.pyx":65
+  /* "ABCTune.pyx":64
  *                 out+=char
  *         return out
  *     def getChordMeasures(self):             # <<<<<<<<<<<<<<
  *         measures=self.getChords().split("|")
  *     def to_iReal(self):
  */
-  __pyx_tuple__19 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_measures); if (unlikely(!__pyx_tuple__19)) __PYX_ERR(0, 65, __pyx_L1_error)
+  __pyx_tuple__19 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_measures); if (unlikely(!__pyx_tuple__19)) __PYX_ERR(0, 64, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__19);
   __Pyx_GIVEREF(__pyx_tuple__19);
-  __pyx_codeobj__20 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__19, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_ABCTune_pyx, __pyx_n_s_getChordMeasures, 65, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__20)) __PYX_ERR(0, 65, __pyx_L1_error)
+  __pyx_codeobj__20 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 2, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__19, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_ABCTune_pyx, __pyx_n_s_getChordMeasures, 64, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__20)) __PYX_ERR(0, 64, __pyx_L1_error)
 
-  /* "ABCTune.pyx":67
+  /* "ABCTune.pyx":66
  *     def getChordMeasures(self):
  *         measures=self.getChords().split("|")
  *     def to_iReal(self):             # <<<<<<<<<<<<<<
  *         time_sig_str=self.sections["M"][0].split("/")
  *         time_sig=TimeSignature(beats=int(time_sig_str[0]),duration=int(time_sig_str[1]))
  */
-  __pyx_tuple__21 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_time_sig_str, __pyx_n_s_time_sig, __pyx_n_s_out, __pyx_n_s_url); if (unlikely(!__pyx_tuple__21)) __PYX_ERR(0, 67, __pyx_L1_error)
+  __pyx_tuple__21 = PyTuple_Pack(5, __pyx_n_s_self, __pyx_n_s_time_sig_str, __pyx_n_s_time_sig, __pyx_n_s_out, __pyx_n_s_url); if (unlikely(!__pyx_tuple__21)) __PYX_ERR(0, 66, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__21);
   __Pyx_GIVEREF(__pyx_tuple__21);
-  __pyx_codeobj__22 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__21, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_ABCTune_pyx, __pyx_n_s_to_iReal, 67, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__22)) __PYX_ERR(0, 67, __pyx_L1_error)
+  __pyx_codeobj__22 = (PyObject*)__Pyx_PyCode_New(1, 0, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__21, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_src_ABCTune_pyx, __pyx_n_s_to_iReal, 66, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__22)) __PYX_ERR(0, 66, __pyx_L1_error)
 
   /* "(tree fragment)":1
  * def __reduce_cython__(self):             # <<<<<<<<<<<<<<
@@ -6001,29 +5992,29 @@ if (!__Pyx_RefNanny) {
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   PyType_Modified(__pyx_ptype_7ABCTune_ABCTune);
 
-  /* "ABCTune.pyx":65
+  /* "ABCTune.pyx":64
  *                 out+=char
  *         return out
  *     def getChordMeasures(self):             # <<<<<<<<<<<<<<
  *         measures=self.getChords().split("|")
  *     def to_iReal(self):
  */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_7ABCTune_7ABCTune_7getChordMeasures, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_ABCTune_getChordMeasures, NULL, __pyx_n_s_ABCTune, __pyx_d, ((PyObject *)__pyx_codeobj__20)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 65, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_7ABCTune_7ABCTune_7getChordMeasures, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_ABCTune_getChordMeasures, NULL, __pyx_n_s_ABCTune, __pyx_d, ((PyObject *)__pyx_codeobj__20)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 64, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_7ABCTune_ABCTune, __pyx_n_s_getChordMeasures, __pyx_t_2) < 0) __PYX_ERR(0, 65, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_7ABCTune_ABCTune, __pyx_n_s_getChordMeasures, __pyx_t_2) < 0) __PYX_ERR(0, 64, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   PyType_Modified(__pyx_ptype_7ABCTune_ABCTune);
 
-  /* "ABCTune.pyx":67
+  /* "ABCTune.pyx":66
  *     def getChordMeasures(self):
  *         measures=self.getChords().split("|")
  *     def to_iReal(self):             # <<<<<<<<<<<<<<
  *         time_sig_str=self.sections["M"][0].split("/")
  *         time_sig=TimeSignature(beats=int(time_sig_str[0]),duration=int(time_sig_str[1]))
  */
-  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_7ABCTune_7ABCTune_9to_iReal, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_ABCTune_to_iReal, NULL, __pyx_n_s_ABCTune, __pyx_d, ((PyObject *)__pyx_codeobj__22)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 67, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_CyFunction_New(&__pyx_mdef_7ABCTune_7ABCTune_9to_iReal, __Pyx_CYFUNCTION_CCLASS, __pyx_n_s_ABCTune_to_iReal, NULL, __pyx_n_s_ABCTune, __pyx_d, ((PyObject *)__pyx_codeobj__22)); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 66, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_7ABCTune_ABCTune, __pyx_n_s_to_iReal, __pyx_t_2) < 0) __PYX_ERR(0, 67, __pyx_L1_error)
+  if (__Pyx_SetItemOnTypeDict((PyObject *)__pyx_ptype_7ABCTune_ABCTune, __pyx_n_s_to_iReal, __pyx_t_2) < 0) __PYX_ERR(0, 66, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   PyType_Modified(__pyx_ptype_7ABCTune_ABCTune);
 
